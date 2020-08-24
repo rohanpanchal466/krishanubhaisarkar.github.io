@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KD Learning Hub</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+  <!-- ******Counter-Up******* -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js
+  "></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  <!-- ***********Scrolling effect*********  -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+
+</head>
+
+<body>
+
+  <section id="title">
+
+    <!-- header -->
+
+    <div class="container-fluid">
+
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">KD Learning Hub</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us"><i class="fas fa-user navbar-icon"></i>ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="javascript:void(0)" class="nav-link">
+                <i class="fas fa-book-open navbar-icon"></i>COURSES
+              </a>
+              <div class="dropdown-content">
+                <a href="courses.html">DIPLOMA IN ENGINEERING</a>
+                <a href="courses-2.html">BACHELOR IN ENGINEERING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="result.html"><i class="fas fa-trophy navbar-icon"></i>RESULTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-images navbar-icon"></i>GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"><i class="fas fa-headset navbar-icon"></i>CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="title-image" src="images/logo.jpg" alt="KD-logo">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="brand-header">"OUR JOB IS NOT TO PREPARE STUDENTS FOR SOMETHING.OUR JOB IS TO HELP STUDENTS PREPARE
+            THEMSELVES FOR
+            ANYTHING."</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ********Aims Section******* -->
+
+  <section id="aims">
+    <div class="container">
+      <h1>What we have for our Students.</h1>
+      <i class="fas fa-university fa-5x"></i>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="aims-image" src="images/aims-section/education.jpg" alt="education">
+      </div>
+      <div class="col-lg-6">
+        <h2>"We help our students to understand every concepts in enhance way.Here we motivate our students to grow
+          there carrer and help them to succed in life."</h2>
+      </div>
+      <div class="col-lg-6">
+        <img class="aims-image" src="images/aims-section/learning.jpg" alt="education">
+      </div>
+      <div class="col-lg-6">
+        <h2>"Here we educated Our Students how to learn a subject rather than muuging up the concepts because Education
+          is the most powerful weapon which you can use to change the world."</h2>
+      </div>
+      <div class="col-lg-6">
+        <img class="aims-image" src="images/aims-section/environment.jpg" alt="education">
+      </div>
+      <div class="col-lg-6">
+        <h2>"Here our students can openly talk with us and share there problems,our enivornment is like we
+          educate,motivate and understand them in a better way and always communicable to solve there problems."</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- ********Courses Section******* -->
+
+  <section id="courses">
+    <h1 class="course-header">Browse Our Courses..</h1>
+    <div class="row">
+      <div class="card col-lg-4">
+        <img src="images/courses/cs.gif" alt="cs" class="course-image">
+        <div class="container">
+          <h4><b>Computer-Engineering</b></h4>  
+        </div>
+      </div>
+      <div class="card col-lg-4">
+        <img src="images/courses/it.gif" alt="it" class="course-image">
+        <div class="container">
+          <h4><b>It-Engineering</b></h4>  
+        </div>
+      </div>
+      <div class="card col-lg-4">
+        <img src="images/courses/extc.gif" alt="extc" class="course-image">
+        <div class="container">
+          <h4><b>EXTC-Engineering</b></h4>  
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="card col-lg-4">
+        <img src="images/courses/civil-1.gif" alt="civil" class="course-image">
+        <div class="container">
+        <h4><b>Civil-Engineering</b></h4>  
+        </div>
+      </div>
+      <div class="card col-lg-4">
+        <img src="images/courses/mechanical.gif" alt="me" class="course-image">
+        <div class="container">
+          <h4><b>Mechanical-Engineering</b></h4>  
+        </div>
+      </div>
+      <div class="card col-lg-4">
+        <img src="images/courses/automobile.gif" alt="extc" class="course-image">
+        <div class="container">
+          <h4><b>Automobile-Engineering</b></h4>  
+        </div>
+      </div>
+    </div>
+    <button class="button"><span>See more about courses..</span></button>
+  </section>
+
+
+  <!-- <section id="team">
+    <h1 class="team-header">Meet Our Team</h1>
+    <img src="images/result/img_avatar.jpg" alt="Avatar" class="avatar">
+    <img src="images/result/img_avatar2.jpg" alt="Avatar" class="avatar">
+    <img src="images/result/img_avatar3.jpg" alt="Avatar" class="avatar">
+    <img src="images/result/img_avatar4.jpg" alt="Avatar" class="avatar">
+    <img src="images/result/img_avatar5.jpg" alt="Avatar" class="avatar">
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img class="team-images" src="images/Team/Krishanu.jpg" alt="Krishanu">
+          <h1>Krishanu Sarkar</h1>
+          <p class="title">CEO And Founder</p>
+          <i class="fas fa-envelope"></i>
+          <p>rohanpanchal466@gmail.com</p>
+          <div class="container">
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          </div>
+          <p style="font-size: 20px;"><button class="button-card"><i style="padding: 5px;"
+                class="fab fa-whatsapp fa-1x"></i>1234567890</button></p>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img class="team-images" src="images/Team/diraj.jpg" alt="diraj">
+          <h1>Dhiraj Gaonkar</h1>
+          <p class="title">CEO And Founder</p>
+          <i class="fas fa-envelope"></i>
+          <p>rohanpanchal466@gmail.com</p>
+          <div class="container">
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          </div>
+          <p style="font-size: 20px;"><button class="button-card"><i style="padding: 5px;"
+                class="fab fa-whatsapp fa-1x"></i>1234567890</button></p>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img class="team-images" src="images/Team/melvin.jpg" alt="melvin">
+          <h1>Father Melvin</h1>
+          <p class="title">CEO And Founder</p>
+          <i class="fas fa-envelope"></i>
+          <p>rohanpanchal466@gmail.com</p>
+          <div class="container">
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          </div>
+          <p style="font-size: 20px;"><button class="button-card"><i style="padding: 5px;"
+                class="fab fa-whatsapp fa-1x"></i>1234567890</button></p>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section id=student-teacher>
+    <div class="interaction">
+      <h1>Students Teachers interaction</h1>
+      <img class="teacher-interaction" src="images/interaction.png" alt="interaction">
+    </div>
+    <div class="row">
+      <div class="col-lg-3 neu">
+        <h2>Solving Problems</h2>
+      </div>
+      <div class="col-lg-3 neu">
+        <h2>Motivating Students</h2>
+      </div>
+      <div class="col-lg-3 neu">
+        <h2>Achieving Aim</h2>
+      </div>
+    </div>
+
+    <div class="interaction">
+      <h1 class="parents-header">Parents Teacher interaction</h1>
+      <img class="teacher-interaction" src="images/parents-teacher.png" alt="interaction">
+    </div>
+    <div class="row">
+      <div class="col-lg-3 neu">
+        <h2>Know your role</h2>
+      </div>
+      <div class="col-lg-3 neu">
+        <h2>Know your child growth</h2>
+      </div>
+      <div class="col-lg-3 neu">
+        <h2>Know your responsibility</h2>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="testimonials">
+
+    <div class="container">
+      <h1 class="testimonals-header">What Our Students Says</h1>
+      <div class="row testimonals-row">
+        <div class="col-lg-4 text-center column-testimonials">
+          <div class="profile">
+            <img class="testimonials-images" src="images/result/img_avatar.jpg" alt="t-1">
+            <blockquote class="testimonials-blockquote">
+              Here i get to know to how grow yourself and achieve a great sucess in my carrer.
+            </blockquote>
+            <h3>Rohan Panchal <span>ST.John College Of Engineering</span></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center column-testimonials">
+          <div class="profile">
+            <img class="testimonials-images" src="images/result/img_avatar2.jpg" alt="t-1">
+            <blockquote class="testimonials-blockquote">
+              Here i get to know to how grow yourself and achieve a great sucess in my carrer.
+            </blockquote>
+            <h3>Rohan Panchal <span>ST.John College Of Engineering</span></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center column-testimonials">
+          <div class="profile">
+            <img class="testimonials-images" src="images/result/img_avatar.jpg" alt="t-1">
+            <blockquote class="testimonials-blockquote">
+              Here i get to know to how grow yourself and achieve a great sucess in my carrer.
+            </blockquote>
+            <h3>Rohan Panchal <span>ST.John College Of Engineering</span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT-US SECTION -->
+  <!-- <section id="about-us">
+    <div class="head-about-us">
+      <h1 class="header-about-us">About Us</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="about-us-image" src="images/Team/Krishanu.jpg" alt="Krishanu">
+        <h4 class="img-header">Krishanu Bhai Sarkar <br>
+          "FOUNDER and CEO"
+        </h4>
+      </div>
+      <div class="col-lg-6">
+        <p class="about-us-p">"We help our students to understand every concepts in enhance way.Here we motivate our
+          students to grow
+          there carrer and help them to succed in life."</p>
+      </div>
+      <div class="col-lg-6">
+        <img class="about-us-image" src="images/Team/diraj.jpg" alt="Dhiraj">
+        <h4 class="img-header">DHIRAJ GAONKAR <br>
+          "FOUNDER and CEO"
+        </h4>
+      </div>
+      <div class="col-lg-6">
+        <p class="about-us-p">"Here we educated Our Students how to learn a subject rather than muuging up the concepts
+          because Education
+          is the most powerful weapon which you can use to change the world."</p>
+      </div>
+    </div>
+
+    <div class="conatiner">
+      <h2 class="goals">Mission</h2>
+      <p class="goals-p">To help customers achieve their business objectives by providing innovative, best-in-class
+        consulting, IT solutions and services. To make it a joy for all stakeholders to work with us.</p>
+      <h2 class="goals">Vision</h2>
+      <p class="goals-p">To help customers achieve their business objectives by providing innovative, best-in-class
+        consulting, IT solutions and services. To make it a joy for all stakeholders to work with us.</p>
+      <h2 class="goals">Values</h2>
+      <p class="goals-p">To help customers achieve their business objectives by providing innovative, best-in-class
+        consulting, IT solutions and services. To make it a joy for all stakeholders to work with us.</p>
+    </div>
+  </section> -->
+
+<!-- ********Contact Us************* -->
+<!-- <section id="contact">
+  <div class="row">
+    <div class="col-lg-4 contact-details">
+      <i class="fas fa-map-marker-alt fa-3x"></i>
+      <p>1-b,Vasudev Nagar, <br>  
+         Landmark: behind SN college, <br> 
+         Navghar Village,Navghar Road,Bhayandar(East)</p>
+    </div>
+    <div class="col-lg-4 contact-details">
+      <i class="fas fa-envelope fa-3x"></i>
+      <p>KD-Learning Hub@gmail.com</p>
+    </div>
+    <div class="col-lg-4 contact-details">
+      <i class="fas fa-phone-square-alt fa-3x"></i>
+      <p>1234567890</p>
+    </div>
+  </div>
+  <div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Contact Us</h2>
+        <form action="">
+          <input type="text" class="field" placeholder="Your Name">
+          <input type="text" class="field" placeholder="Your Email">
+          <input type="text" class="field" placeholder="Phone">
+          <input type="text" class="field" placeholder="Institution Name">
+          <select class="field" name="" id="">
+            <option value="">Diploma</option>
+            <option value="">B.E</option>
+          </select>
+          <select class="field" name="" id="">
+            <option value="">Computer-Engineering</option>
+            <option value="">IT-Engineering</option>
+            <option value="">Civil-Engineering</option>
+            <option value="">Mechanical-Engineering</option>
+            <option value="">EXTC-Engineering</option>
+            <option value="">Automobile-Engineering</option>
+          </select>
+          <button class="btn">Send</button>
+        </form>
+			</div>
+		</div>
+	</div>
+</section> -->
+
+
+<!-- ******FOOTER SECtion********* -->
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
+          <h1 class="footer-header-1">KD-LEARNING HUB</h1>
+          <p class="footer-p">We are not "Just" Teachers,We are the managers of the word's greatest resource
+            "Childrens!"</p>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
+          <h2 class="footer-header-2">More from us</h2>
+          <ul>
+            <li><a href="">ABOUT-US</a></li>
+            <li><a href="">COURSES</a></li>
+            <li><a href="">RESULTS</a></li>
+            <li><a href="">CONTACT-US</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
+          <h2 class="footer-header-2">Follow Us</h2>
+          <p class="footer-p">Follow us on various social media platforms for interacting with us.Also get updates on
+            our upcoming events and courses.</p>
+          <a href=""><i class="fab fa-facebook-square fa-2x"></i></a>
+          <a href=""><i class="fab fa-twitter-square fa-2x"></i></a>
+          <a href=""><i class="fab fa-instagram-square fa-2x"></i></a>
+          <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
+          <h2 class="footer-header-2">Meet us here</h2>
+          <i class="fas fa-map-signs"></i>
+          <span class="footer-span">KD Learning Hub,1-b,Vasudev nagar<br>
+            Behind SN College,Navghar Rd,Navghar Village,<br>
+            Bhayandar(East)</span>
+        </div>
+      </div>
+    </div>
+    <h3 class="footer-header-3">Copyright<i class="far fa-copyright"></i> 2020 All rights reserved | This website is made
+      with ❤ by KD LEARNING HUB TEAM
+    </h3>
+  </footer>
+
+  <script src="kd.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
+</body>
+
+</html>
